@@ -1,16 +1,26 @@
-## Hi there 👋
+<h1 align="center">Hey there 👋, I'm Krystian!</h1>
+<p align="center">
+    Interested in Linux, self-hosting and web technologies.
+</p>
 
-<!--
-**Krystian15x/Krystian15x** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+```py
+class AboutMe:
+    def __init__(self):
+        self.username = "Krystian15x"
+        self.pronouns = ["he", "him"]
+        self.location = "Poland"
+        self.status = "Looking for Work"
+        self.age = 23
+        self.hobbies = ["Homelab", "Linux", "SDR", "Astronomy", "Human neurobiology"]
+        self.skills = {
+            "frontend": ["HTML", "CSS", "JavaScript"],
+            "backend": ["Python", "PHP", "REST APIs"],
+            "databases": ["SQL", "MySQL"],
+            "devops": ["Linux", "Bash", "Docker", "Docker Compose", "Proxmox"],
+            "cms": ["WordPress"]
+            "tools": ["Git", "GitHub", "VS Code"]
+        }
+        self.how_it_started = "I got into tech at a young age and started coding when I was around 12-13"
 
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+if __name__ == "__main__":
+    me = AboutMe()
