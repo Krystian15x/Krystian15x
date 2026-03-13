@@ -17,7 +17,7 @@ class AboutMe:
             "backend": ["Python", "PHP", "REST APIs"],
             "databases": ["SQL", "MySQL"],
             "devops": ["Linux", "Bash", "Docker", "Docker Compose", "Proxmox"],
-            "cms": ["WordPress"]
+            "cms": ["WordPress"],
             "tools": ["Git", "GitHub", "VS Code"]
         }
         self.how_it_started = "I got into tech at a young age and started coding when I was around 12-13"
